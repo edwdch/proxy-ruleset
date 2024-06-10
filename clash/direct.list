@@ -1,0 +1,5 @@
+# 用于获取真实 IP
+DOMAIN-SUFFIX,ident.me
+
+# 我的域名
+DOMAIN-SUFFIX,edch.top
