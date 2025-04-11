@@ -6,6 +6,3 @@ DOMAIN-SUFFIX,edch.top
 
 # 其他
 DOMAIN-SUFFIX,oocl.com
-
-# VPN
-IP-CIDR,52.74.226.15/32,no-resolve
