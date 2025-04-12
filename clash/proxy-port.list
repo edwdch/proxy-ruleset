@@ -1,5 +1,5 @@
 # Github Push/Pull
- AND,((DOMAIN-SUFFIX,github.com),(DST-PORT,22))
+AND,((DOMAIN-SUFFIX,github.com),(DST-PORT,22))
  
- # VPN
- AND,((IP-CIDR,52.74.226.15/32),(DST-PORT,10443))
+# VPN
+AND,((IP-CIDR,52.74.226.15/32),(DST-PORT,10443))
