@@ -1,7 +1,5 @@
-# 非 80，443 端口的访问
-
 # Github Push/Pull
-DOMAIN,github.com
-
-# VPN
-IP-CIDR,52.74.226.15/32,no-resolve
+ AND,((DOMAIN-SUFFIX,github.com),(DST-PORT,22))
+ 
+ # VPN
+ AND,((IP-CIDR,52.74.226.15/32),(DST-PORT,10443))
